@@ -22,10 +22,22 @@ let handphone = {
 };
 
 function cetakInfoHandphone(hp) {
-  // SAYA INGIN FUNGSINYA MENGEMBALIKAN (RETURN) TEKS: "Hp iPhone 15 harganya 15000000"
-  // Jalur kode di bawah ini masih salah, coba perbaiki:
-  return `Hp ${hp.merk} harganya ${hp.harga}`;
+  return "Hp" + merk + "harganya " + harga;
 }
 
 let hasil = cetakInfoHandphone(handphone);
 console.log(hasil);
+
+//Jawaban
+
+let handphone1 = {
+  merk: "iPhone 15",
+  harga: 15000000,
+};
+
+function cetakInfoHandphone1(hp1) {
+  return `Hp ${hp1.merk} harganya ${hp1.harga}`;
+}
+
+let hasil1 = cetakInfoHandphone1(handphone1);
+console.log(hasil1);
